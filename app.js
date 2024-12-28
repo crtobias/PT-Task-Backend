@@ -16,10 +16,12 @@ app.use('/docs', swaggerUI.serve, swaggerUI.setup(specs))
 
 app.use('/', routes);
 
+console.log("MongoDB URL:", process.env.URL);
+
 mongoose.connect(process.env.URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('Conectado a MongoDB Atlas');
   })
   .catch(err => console.error('Error al conectar:', err));
-  
+
 export default app;

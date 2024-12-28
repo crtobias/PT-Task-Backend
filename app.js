@@ -4,6 +4,7 @@ import routes from './routes/index.js';
 import swaggerUI from "swagger-ui-express"
 import specs from './swagger/swagger.js';
 import dotenv from "dotenv"
+import cors from "cors"
 
 dotenv.config();
 
@@ -12,9 +13,8 @@ const app = express();
 const url = process.env.URL
 
 app.use(express.json());
-
+app.use(cors());
 app.use('/docs', swaggerUI.serve, swaggerUI.setup(specs))
-
 app.use('/', routes);
 
 

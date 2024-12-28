@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Archivos de logs
+*.log
+npm-debug.log*
+
+# Archivos de entorno
+.env
+.env.*
+
+# Dependencias de sistema operativo (Mac y Windows)
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación (si tienes)
+dist/
+build/
+
+# Archivos temporales de editor
+.vscode/
+.idea/
+*.swp

@@ -1,6 +1,6 @@
 import express from "express";
 import { createTask , getAllTasks , getTaskById , updateTask , deleteTask } from "../controllers/taskControllers.js";
-import { validationId, validationTitle } from "../validation/task-validation.js";
+import { validationTitle } from "../validation/task-validation.js";
 
 const router = express.Router();
 

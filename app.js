@@ -18,7 +18,6 @@ app.use('/docs', swaggerUI.serve, swaggerUI.setup(specs))
 app.use('/', routes);
 
 
-
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('Conectado a MongoDB Atlas');

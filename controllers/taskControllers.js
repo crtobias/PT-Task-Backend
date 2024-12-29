@@ -4,10 +4,6 @@ export const createTask = async (req, res) => {
     try {
         const { title, description } = req.body;
 
-        if (!title) {
-            return res.status(400).json({ msg: 'El título de la tarea es obligatorio' });
-        }
-
         const newTask = new Task({ title, description });
         const savedTask = await newTask.save();
         res.status(201).json(savedTask);

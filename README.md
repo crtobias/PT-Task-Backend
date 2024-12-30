@@ -3,6 +3,9 @@
 
 Este es un backend construido con Express.js que gestiona tareas. Ofrece endpoints para crear, leer, actualizar y eliminar tareas, y está integrado con una base de datos MongoDB. Además, incluye documentación generada con Swagger y pruebas automatizadas con Jest y Supertest.
 
+⚠ **Nota importante:**  
+Como es un despliegue gratuito en Render, la primera vez que accedas o después de un período de inactividad, el servidor puede tardar algunos segundos en arrancar. Esto es completamente normal debido a las políticas de servicios gratuitos.
+
 ## Tecnologías utilizadas
 
 - **Node.js**
@@ -17,9 +20,6 @@ Este es un backend construido con Express.js que gestiona tareas. Ofrece endpoin
 
 La aplicación está desplegada en Render:  
 [https://pt-task-backend.onrender.com](https://pt-task-backend.onrender.com)
-
-⚠ **Nota importante:**  
-Como es un despliegue gratuito en Render, la primera vez que accedas o después de un período de inactividad, el servidor puede tardar algunos segundos en arrancar. Esto es completamente normal debido a las políticas de servicios gratuitos.
 
 La documentación completa de los endpoints está disponible en:  
 [https://pt-task-backend.onrender.com/docs](https://pt-task-backend.onrender.com/docs)
@@ -81,9 +81,6 @@ Las pruebas incluyen validaciones de rutas utilizando **Jest** y **Supertest**.
 
 El backend está desplegado en Render:  
 [https://pt-task-backend.onrender.com](https://pt-task-backend.onrender.com)
-
-⚠ **Nota importante:**  
-El despliegue gratuito en Render tiene un tiempo de arranque más lento cuando se accede por primera vez o después de un período de inactividad. Por favor, sé paciente mientras el servidor arranca.
 
 ---
 

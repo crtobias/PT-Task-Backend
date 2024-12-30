@@ -87,6 +87,5 @@ El despliegue gratuito en Render tiene un tiempo de arranque más lento cuando s
 
 ---
 
-¡Gracias por usar este backend! Si tienes dudas o sugerencias, no dudes en contactarme.
 
 FrontEnd de este proyecto : https://github.com/crtobias/PT-Task-Frontend
